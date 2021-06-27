@@ -1,0 +1,68 @@
+html { 
+    background: url(../img/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+a{
+    font-size: 1em;
+    text-decoration: none;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 2px rgb(236, 233, 233);
+    font-size: 1em;
+    font: bold;
+    color: rgb(24, 29, 92);
+}
+.container{
+    position: absolute;
+    padding-top: 50px;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    background:rgba(120, 120, 145, 0.45); 
+    top: 5%;
+    left: 15%;
+    border-radius: 3px;
+}
+.field{
+    font-size: 1.1em;
+    padding-left: 50px;
+    width: 85%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+.field:focus{
+    outline: 2px;
+    outline-color: rgb(6, 24, 126);
+    outline-style: solid;
+}
+.logo-img{
+    border-radius: 10px;
+}
+.btn-send{
+    cursor: pointer;
+    background-color: rgb(36, 59, 187);
+    color: white;
+    font-size: 0.8em;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 85%;
+    font-size: 1.1em;
+}
+form i{ 
+    left: -35px;
+    top: 10px;
+    border: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    float: right;
+    color: #2959a0;
+}
